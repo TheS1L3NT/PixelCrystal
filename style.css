@@ -49,6 +49,17 @@ nav{
     text-align: center;
 }
 
+#maintance{
+    width: 100%;
+    height: 500px;
+}
+
+#maintance img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .form-contact{
     width: 50%;
     margin: auto;
