@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="icon.ico">
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
     </head>
     <body> 
         <header>
@@ -82,20 +83,14 @@
 
         <section id="support">
             <h2 class="mitte" >Support</h2>
-                <?php 
-                if(isset($_POST["submit"])){
-                    mail("jonaswilk44@gmail.com", "Kontaktformular", 'Name: '.$_POST["name"].' E-Mail: '.$_POST["email"].' Nachricht: '.$_POST["message"]);
-                    ?>
-                    <h1 style="color: green">Die E-Mail wurde gesendet!</h1>
-                    <?php
-                } 
-                ?>
-                <form action="index.html" method="post">
-                    <input type="text" name="name" placeholder="Name" required><br>
-                    <input type="email" name="email" placeholder="E-Mail" required><br>
-                    <textarea name="message" rows="8" cols="80" placeholder="Nachricht" required></textarea><br>
-                    <button type="submit" name="submit">Absenden</button>
+                <form action="#" class="form-contact">
+                    <input type="text" id="name" placeholder="Name" required><br>
+                    <input type="email" id="email" placeholder="E-Mail" required><br>
+                    <textarea id="message" rows="8" cols="80" placeholder="Nachricht" required></textarea><br>
+                    <input id="submit" type="submit">
                 </form>
+
+                <script src="./index.js"></script>
         </section>
 
         <section id="überuns">
