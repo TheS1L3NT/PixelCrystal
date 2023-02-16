@@ -49,6 +49,43 @@ nav{
     text-align: center;
 }
 
+.form-contact{
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 10px;
+}
+input{
+    width: 75%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+input[type="submit"]{
+    width: fit-content;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: #151515;
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+    color: rgb(155, 155, 155);
+    transition: all ease 0.3s;
+}
+textarea{
+    width: 75%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
 footer ul, nav ul{
     list-style: none;
     margin: 0;
