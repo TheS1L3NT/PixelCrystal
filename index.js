@@ -17,12 +17,13 @@ submit.addEventListener('submit',(e)=>{
     `
 
     Email.send({
-        SecureToken : "bf02bd40-0511-44a4-8fc7-f24906e7f0a6",
-        To : 'pixelcrystalgamesofficial@gmail.com',
-        From : "pixelcrystalgamesofficial@gmail.com",
-        Subject : "Email from: " + email.value,
-        Body : "" + message.value
-    }).then(
-      message => alert(message)
-    );
+      SecureToken : "212adc62-35ec-4976-9f5e-30be464dc100",
+      To : 'pixelcrystalgamesofficial@gmail.com',
+      From : "pixelcrystalgamesofficial@gmail.com",
+      Subject : "Email from: " + email.value,
+      Body : "" + message.value
+  }).then(
+    message => alert(message)
+  );
 })
+
