@@ -17,7 +17,7 @@ submit.addEventListener('submit',(e)=>{
     `
 
     Email.send({
-        SecureToken : "eb74bed4-2f63-4d2f-b5ed-c2afa36ad543",
+        SecureToken : "bf02bd40-0511-44a4-8fc7-f24906e7f0a6",
         To : 'pixelcrystalgamesofficial@gmail.com',
         From : "pixelcrystalgamesofficial@gmail.com",
         Subject : "Email from: " + email.value,
