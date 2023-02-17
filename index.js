@@ -15,15 +15,21 @@ submit.addEventListener('submit',(e)=>{
     <b>Message:</b>${message.value}
     <br>
     `
-
     Email.send({
-      SecureToken : "212adc62-35ec-4976-9f5e-30be464dc100",
+      SecureToken : "1e17595c-0658-402f-a2d7-98358298bc2f",
       To : 'pixelcrystalgamesofficial@gmail.com',
       From : "pixelcrystalgamesofficial@gmail.com",
-      Subject : "Email from: " + email.value,
+      Subject : "Name: " + fname.value + " | " + "Email: " + email.value,
       Body : "" + message.value
   }).then(
     message => alert(message)
   );
+
 })
 
+//USERNAME AND PASSWORD
+//pixelcrystalgamesofficial@gmail.com
+//D7131BF0A03401A3117059434777657FA77C
+
+// TOKEN
+//1e17595c-0658-402f-a2d7-98358298bc2f
