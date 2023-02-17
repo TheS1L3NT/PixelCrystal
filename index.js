@@ -23,6 +23,6 @@ submit.addEventListener('submit',(e)=>{
         Subject : "Email from: " + email.value,
         Body : "" + message.value
     }).then(
-      message => alert("Send Succesfull!")
+      message => alert(message)
     );
 })
